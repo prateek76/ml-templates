@@ -3,7 +3,7 @@
 Basic machine learning templates for regression and classification algorithms.  
 
 ## Getting Started
-Use git clone https://github.com/prateek76/ml-templates.git to clone the repository into your local machine
+Use ```git clone https://github.com/prateek76/ml-templates.git``` to clone the repository into your local machine
 
 ## Prerequisites
 If you already have a working installation of numpy and scipy, the easiest way to install scikit-learn is using pip
@@ -31,7 +31,7 @@ df = pd.read_csv(PATH)
 X = dataset.iloc[:, m:n].values
 y = dataset.iloc[:, 2].values
 ```
-### change m:n to required number of columns( X is the feature set and y is the label )
+* change m:n to required number of columns( X is the feature set and y is the label )
 
 * Use different Classes of scikit learn to make different models  
 * change the label and title of the plot
