@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('/media/deflorator/soft/machine learning/a-z machine learning/Social_Network_Ads.csv')
+df = pd.read_csv('PATH') # Change path
 X = df.iloc[:,[2,3]].values
 y = df.iloc[:,4].values
 
