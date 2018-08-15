@@ -22,12 +22,16 @@ conda install pandas
 
 ### Installing
 * Change the path of dataset
+```
+df = pd.read_csv(PATH)
+
+```
 * select the rows required to make the model
 ```
 X = dataset.iloc[:, m:n].values
 y = dataset.iloc[:, 2].values
 ```
-change m:n to required number of columns( X is the feature set and y is the label )
+### change m:n to required number of columns( X is the feature set and y is the label )
 
 * Use different Classes of scikit learn to make different models  
 * change the label and title of the plot
