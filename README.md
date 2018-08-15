@@ -26,7 +26,6 @@ conda install pandas
 ```
 X = dataset.iloc[:, m:n].values
 y = dataset.iloc[:, 2].values
-
 ```
 change m:n to required number of columns( X is the feature set and y is the label )
 
