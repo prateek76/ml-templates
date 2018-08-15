@@ -1,6 +1,6 @@
 # ml-templates
 
-Basic machine learning templates for regression and classification algorithms.  
+Machine learning templates for regression and classification algorithms.  
 
 ## Getting Started
 Use ```git clone https://github.com/prateek76/ml-templates.git``` to clone the repository into your local machine
